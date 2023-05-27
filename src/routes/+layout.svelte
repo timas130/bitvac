@@ -1,7 +1,5 @@
 <script>
   import "../app.css";
-
-  export const prerender = true;
 </script>
 
 <div class="background min-h-screen text-white">

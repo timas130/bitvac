@@ -2,8 +2,6 @@
   import unsortedEntries from "$lib/data/entries.json";
   import tags from "$lib/data/tags.json";
 
-  export const prerender = true;
-
   $: tagsMap = tags.reduce((obj, tag) => ({...obj, [tag.id]: tag.name}), {});
 
   const decodedTags = {

@@ -1,7 +1,3 @@
-<script>
-  export const prerender = true;
-</script>
-
 <h1 class="font-bold text-4xl mb-4">Объяснения всех тегов</h1>
 
 <a href="/" class="text-lg mb-2 text-amber-500 underline">Назад на главную</a>
